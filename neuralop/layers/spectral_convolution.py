@@ -772,3 +772,4 @@ class SpectralConv3d(SpectralConv):
         if self.bias is not None:
             x = x + self.bias[indices, ...]
         return x
+
